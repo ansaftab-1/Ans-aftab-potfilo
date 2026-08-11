@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from  "./components/navbar/Navbar"
 import Hero from "./components/hero/Hero"
 import About from "./components/about/About"
@@ -14,18 +15,18 @@ import CertificationSection from './components/certificate/CertificationSection'
 const App = () => {
   return (
     <div>
-    <Navbar/>
-<Hero/>
-<About/>
-<Education/>
-<Skills/>
-<WorkExperience/>
-<ProjectSection/>
-<JourneySection/>
-<CertificationSection/>
-<Contact/>
-<Footer/>
-
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Education/>
+      <Skills/>
+      <WorkExperience/>
+      <ProjectSection/>
+      <JourneySection/>
+      <CertificationSection/>
+      <Contact/>
+      <Footer/>
+      <Analytics />
     </div>
   )
 }
